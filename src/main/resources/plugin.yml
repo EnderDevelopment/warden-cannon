@@ -1,0 +1,13 @@
+name: WardenCannon
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  wardencannon:
+    description: Gives and fires the Warden Cannon trident.
+    usage: /wardencannon shot
+    permission: wardencannon.use
+permissions:
+  wardencannon.use:
+    description: Allows use of the Warden Cannon.
+    default: false
